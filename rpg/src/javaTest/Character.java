@@ -2,6 +2,7 @@ package javaTest;
 
 public class Character {
 
+//	インスタンス変数を定義
 	public String name;
 	public int hp;
 	public int mp;
@@ -10,7 +11,7 @@ public class Character {
 	public int speed;
 
 
-//	メソッド作成
+//	インスタンスメソッド作成
 	public void introduce() {
 		System.out.println("僕の名前は" + name + ",HPは" + hp + ",MPは" + mp + " !！" );
 	}
